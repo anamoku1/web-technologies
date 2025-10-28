@@ -1,1 +1,40 @@
-/*CSC Demo Stylesheet*/
+/*Course CSS DEMO CSS*/
+body {
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 82.7;
+}
+header.primary{
+background-color:rgb(247, 106, 129);
+text-align:center;
+color:#ffffff
+}
+html {
+  box-sizing: border-box;
+}*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*single value short hand*/
+header.primary h2{
+font-size: 1.4em;
+letter-spacing:2px;
+margin:10px 0 0 0 
+}
+header.primary h1{
+  color: #ffffff;
+  text-decoration:none
+}
+
+header.primary nav ul{
+  padding:0;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+  
+}
